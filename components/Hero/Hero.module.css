@@ -59,7 +59,9 @@
 .heroImage img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(176, 141, 79, 0.3);
 }
@@ -68,3 +70,4 @@
   .heroImage { justify-content: flex-end; }
   .heroImage img { max-width: 90%; }
 }
+
